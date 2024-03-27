@@ -14,18 +14,21 @@
         android:theme="@style/Base.Theme.LogSignSQL"
         tools:targetApi="31">
 
+
         <activity
             android:name="com.example.firstapp.logsignsql.LoginActivity"
+            android:theme="@style/Theme.AppCompat"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
+
         <activity
             android:name="com.example.firstapp.logsignsql.SignupActivity"
+            android:theme="@style/Theme.AppCompat"
             android:exported="false" />
 
         <activity
